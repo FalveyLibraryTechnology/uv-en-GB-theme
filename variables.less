@@ -14,7 +14,7 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:                 #cc0000;
+@brand-primary:                 #abd331; // Customized from #cc0000
 @brand-primary-light:           lighten(@brand-primary, 60%);
 @brand-primary-lighter:         lighten(@brand-primary, 90%);
 @brand-secondary:               #869f33;
@@ -35,7 +35,7 @@
 // Links
 // -------------------------
 
-@link-color:                    #869f33;
+@link-color:                    @brand-primary; // customized from #869f33;
 @link-hover-color:              lighten(@link-color, 10%);
 @link-secondary-color:          @brand-secondary;
 @link-secondary-hover-color:    lighten(@link-secondary-color, 10%);
@@ -93,7 +93,7 @@
 @btn-default-bg:                @gray;
 @btn-default-border:            @gray;
 
-@btn-primary-color:             #fff;
+@btn-primary-color:             #000; // Customized from #fff
 @btn-primary-bg:                @brand-primary;
 @btn-primary-border:            @brand-primary;
 
@@ -194,5 +194,5 @@
 
 // scrollbars
 @scrollbar-width:               12px;
-@scrollbar-thumb-color:         lighten(@brand-secondary, 10%);
+@scrollbar-thumb-color:         @brand-secondary; // Customized from lighten(@brand-secondary, 10%);
 
