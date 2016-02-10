@@ -1,10 +1,14 @@
 @import 'variables';
 @import 'header-panel';
-#app {
-    // CUSTOM
-    .download .content a {
-      color: saturate(darken(@brand-primary, 25%), 20%);
-      text-decoration: underline;
-    }
-}
 @import 'footer-panel';
+
+#app {
+  // CUSTOM
+  .download .content a {
+    color: saturate(darken(@brand-primary, 25%), 20%);
+    text-decoration: underline;
+  }
+  .rightPanel .main .items .item .text a.toggle {
+    color: @brand-primary;
+  }
+}
